@@ -1,0 +1,95 @@
+.custom-border {
+    border: 2px solid #3498db;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-left: -3.2px;
+    height: 100%;
+    width: 100%;
+}
+
+/* Navigation */
+nav ul li a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: transparent;
+    height: 100px;
+    padding: 25px;
+    padding-left: 50%;
+    margin-top: -17px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-top: 2%;
+    text-decoration: none;
+}
+
+nav ul li {
+    text-decoration: none;
+}
+
+.navbar-nav > .active > a {
+    background-color: blueviolet;
+}
+
+#about_us {
+    scroll-behavior: smooth;
+}
+
+/* Slideshow */
+.carousel-item {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/* Admin Pages */
+.container form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.alert {
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+/* Footer */
+.footer {
+    margin-top: 2%;
+    height: 18.75rem;
+    background-color: rgb(2, 4, 35);
+}
+
+.fa {
+    margin-top: 5%;
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(17, 24, 126);
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px black;
+}
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+/* Image Hover Effects */
+img:hover {
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+}
+
+img:hover-out {
+    transition: transform 0.5s ease;
+    transform: scale(1);
+}
